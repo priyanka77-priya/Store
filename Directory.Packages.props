@@ -2,10 +2,10 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
-    <AspnetVersion>9.0.5</AspnetVersion>
-    <MicrosoftExtensionsVersion>9.0.5</MicrosoftExtensionsVersion>
-    <MicrosoftExtensionsAIVersion>9.5.0</MicrosoftExtensionsAIVersion>
-    <AspireVersion>9.3.0</AspireVersion>
+    <AspnetVersion>11.0.0</AspnetVersion>
+    <MicrosoftExtensionsVersion>11.0.0</MicrosoftExtensionsVersion>
+    <MicrosoftExtensionsAIVersion>11.0.1</MicrosoftExtensionsAIVersion>
+    <AspireVersion>11.0.1</AspireVersion>
     <AspireUnstablePackagesVersion>9.3.0-preview.1.25265.20</AspireUnstablePackagesVersion>
     <GrpcVersion>2.71.0</GrpcVersion>
     <DuendeVersion>7.1.1</DuendeVersion>
@@ -45,7 +45,7 @@
     <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(AspnetVersion)" />
 
     <PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="$(AspnetVersion)" />
-    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.5.0" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="11.0.1" />
 
     <PackageVersion Include="MSTest.TestFramework" Version="3.8.2" />
     <PackageVersion Include="MSTest.TestAdapter" Version="3.8.2" />
@@ -65,7 +65,7 @@
     <!-- AI -->
     <PackageVersion Include="Microsoft.Extensions.AI" Version="$(MicrosoftExtensionsAIVersion)" />
     <PackageVersion Include="Microsoft.Extensions.AI.Abstractions" Version="$(MicrosoftExtensionsAIVersion)" />
-    <PackageVersion Include="Microsoft.Extensions.AI.OpenAI" Version="9.5.0-preview.1.25265.7" />
+    <PackageVersion Include="Microsoft.Extensions.AI.OpenAI" Version="11.0.1" />
     <PackageVersion Include="CommunityToolkit.Aspire.Hosting.Ollama" Version="9.4.1-beta.289" />
     <PackageVersion Include="CommunityToolkit.Aspire.OllamaSharp" Version="9.4.1-beta.289" />
     <!-- Open Telemetry -->
