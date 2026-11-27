@@ -3,11 +3,11 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
     <AspnetVersion>9.0.5</AspnetVersion>
-    <MicrosoftExtensionsVersion>9.0.5</MicrosoftExtensionsVersion>
-    <MicrosoftExtensionsAIVersion>9.5.0</MicrosoftExtensionsAIVersion>
+    <MicrosoftExtensionsVersion>10.0.12</MicrosoftExtensionsVersion>
+    <MicrosoftExtensionsAIVersion>10.5.2</MicrosoftExtensionsAIVersion>
     <AspireVersion>9.3.0</AspireVersion>
     <AspireUnstablePackagesVersion>9.3.0-preview.1.25265.20</AspireUnstablePackagesVersion>
-    <GrpcVersion>2.71.0</GrpcVersion>
+    <GrpcVersion>2.83.0</GrpcVersion>
     <DuendeVersion>7.1.1</DuendeVersion>
     <ApiVersioningVersion>8.1.0</ApiVersioningVersion>
   </PropertyGroup>
@@ -66,7 +66,7 @@
     <PackageVersion Include="Microsoft.Extensions.AI" Version="$(MicrosoftExtensionsAIVersion)" />
     <PackageVersion Include="Microsoft.Extensions.AI.Abstractions" Version="$(MicrosoftExtensionsAIVersion)" />
     <PackageVersion Include="Microsoft.Extensions.AI.OpenAI" Version="9.5.0-preview.1.25265.7" />
-    <PackageVersion Include="CommunityToolkit.Aspire.Hosting.Ollama" Version="9.4.1-beta.289" />
+    <PackageVersion Include="CommunityToolkit.Aspire.Hosting.Ollama" Version="13.6.1" />
     <PackageVersion Include="CommunityToolkit.Aspire.OllamaSharp" Version="9.4.1-beta.289" />
     <!-- Open Telemetry -->
     <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.12.0" />
@@ -88,15 +88,15 @@
     <!-- Grpc -->
     <PackageVersion Include="Grpc.AspNetCore" Version="$(GrpcVersion)" />
     <PackageVersion Include="Grpc.Net.ClientFactory" Version="$(GrpcVersion)" />
-    <PackageVersion Include="Grpc.Tools" Version="2.72.0" PrivateAssets="All" />
+    <PackageVersion Include="Grpc.Tools" Version="2.83.0" PrivateAssets="All" />
     <!-- Miscellaneous -->
     <PackageVersion Include="Automapper" Version="14.0.0" />
     <PackageVersion Include="Dapper" Version="2.1.35" />
     <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.0" />
-    <PackageVersion Include="Google.Protobuf" Version="3.30.2" />
+    <PackageVersion Include="Google.Protobuf" Version="3.36.1" />
     <PackageVersion Include="MediatR" Version="12.4.1" />
     <PackageVersion Include="Microsoft.Web.LibraryManager.Build" Version="2.1.175" />
-    <PackageVersion Include="Polly.Core" Version="8.5.2" />
+    <PackageVersion Include="Polly.Core" Version="8.7.0" />
     <PackageVersion Include="System.Reflection.TypeExtensions" Version="4.7.0" />
     <PackageVersion Include="xunit" Version="2.9.3" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" />
